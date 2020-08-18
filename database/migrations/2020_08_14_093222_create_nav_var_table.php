@@ -19,7 +19,7 @@ class CreateNavVarTable extends Migration
             $table->string('href')->nullable();
             $table->string('icon')->nullable();
             $table->string('dropdown')->nullable();
-            $table->string('dropdown-child')->nullable();
+            $table->string('dropdown_child')->nullable();
         });
     }
 
