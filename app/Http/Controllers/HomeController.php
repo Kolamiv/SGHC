@@ -36,12 +36,12 @@ class HomeController extends Controller
 
     public function registro_islas() 
     {
-        return view('control_isla.registro_islas');
+        return view('control-isla.registro');
     }
 
     public function carga_islas() 
     {
-        return view('control_isla.carga_islas');
+        return view('control-isla.carga');
     }
 
     public function reporte_islas() 
